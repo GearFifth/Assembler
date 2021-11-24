@@ -35,18 +35,18 @@ petlja:
 
 greska:
 	movl $1, %eax
-	movl %ebp, %esp
 	popl %edi
 	popl %esi
 	popl %ebx
+	movl %ebp, %esp
 	popl %ebp
 	ret
 kraj:
 	movl $0, %eax
-	movl %ebp, %esp
 	popl %edi
 	popl %esi
 	popl %ebx
+	movl %ebp, %esp
 	popl %ebp
 	ret
 	
