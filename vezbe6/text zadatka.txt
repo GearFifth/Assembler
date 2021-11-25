@@ -1,0 +1,15 @@
+Zadatak: napisati potprogram koji generiše bit-masku (z1):
+
+unsigned int maska(unsigned int n, unsigned int v)
+
+gde je n redni broj bita kojeg treba postaviti na vrednost parametra v (svi ostali biti se
+postavljaju na suprotnu vrednost). Parametar v može biti 0 ili 1. Ukoliko je neki od parametara neispravan, vratiti 0 kao rezultat. Primer za n=3, v=0:
+
+11111111111111111111111111110111
+b): dvostruka preciznost (z2)
+
+
+
+Zadatak: Napisati potprogram koji će postaviti paritet za 15-bitnu vrednost (najviši bit je rezervisan za bit pariteta) (z3):
+int SetParity(unsigned short int* vrednost);
+Povratna vrednost je vrednost postavljenog bita pariteta (0 ili 1)
