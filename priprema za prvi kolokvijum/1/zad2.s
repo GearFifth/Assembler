@@ -37,7 +37,7 @@ paran:
 	decl %esi
 	jmp petlja
 greska:
-	movl $11111, (%ecx,%edi,2)
+	movw $11111, (%ecx,%edi,2)
 	decl %esi
 	jmp petlja
 kraj:
